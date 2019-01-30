@@ -28,10 +28,20 @@ Album.delete_all()
   album1.save()
   album2.save()
 
-  artist_1.albums
-  album2.artist
+  artist_1.albums()
+  album2.artist()
 
+  artist_1.name = 'Sharlotte'
+  artist_1.update()
 
+  album2.genre = 'DnB'
+  album2.update()
 
+  # Artist.find(20)
+  one = Artist.all()
+
+  # Album.find(51)
+
+ r = Album.all()
     binding.pry
     nil
